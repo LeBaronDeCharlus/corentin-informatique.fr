@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Dépannage, Cours & Création de Sites Internet</title>
+    <meta name="description" id="meta-description" content="Dépannage informatique et cours à domicile secteur Évrecy et Communauté de communes Vallées de l'Orne & de l'Odon. PC/Mac lents, virus, installation Wi-Fi, cours seniors, Python, Linux. Soirées et week-end.">
+    <meta name="keywords" id="meta-keywords" content="dépannage informatique, cours informatique, création site web, Évrecy, Communauté de communes Vallées de l'Orne et de l'Odon, PC lent, virus, Wi-Fi, formation senior, Python, Linux, WordPress">
+    <meta name="author" content="Corentin - Expert informatique">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="fr">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" id="og-url" content="">
+    <meta property="og:title" id="og-title" content="Dépannage, Cours & Création de Sites Internet - Évrecy et Communauté de communes Vallées de l'Orne & de l'Odon">
+    <meta property="og:description" id="og-description" content="Expert informatique secteur Évrecy et Communauté de communes Vallées de l'Orne & de l'Odon : dépannage PC/Mac, cours pour seniors, création sites web. Interventions soirées et week-end.">
+    <meta property="og:locale" content="fr_FR">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" id="twitter-url" content="">
+    <meta property="twitter:title" id="twitter-title" content="Dépannage, Cours & Création de Sites Internet - Évrecy et Communauté de communes Vallées de l'Orne & de l'Odon">
+    <meta property="twitter:description" id="twitter-description" content="Expert informatique secteur Évrecy et Communauté de communes Vallées de l'Orne & de l'Odon : dépannage PC/Mac, cours pour seniors, création sites web. Interventions soirées et week-end.">
+    
+    <!-- Liens canoniques -->
+    <link rel="canonical" id="canonical-url" href="">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🖥️</text></svg>">
+    
+    <!-- Preconnect pour performances -->
+    <link rel="preconnect" href="https://cdn.tailwindcss.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Données structurées JSON-LD -->
+    <script type="application/ld+json" id="structured-data">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Corentin Informatique",
+        "image": "",
+        "description": "Expert informatique secteur Évrecy et Communauté de communes Vallées de l'Orne & de l'Odon : dépannage PC/Mac, cours pour seniors, création sites web. Interventions soirées et week-end.",
+        "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "Calvados",
+            "addressCountry": "FR",
+            "addressLocality": "Évrecy"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 49.1039,
+            "longitude": -0.4939
+        },
+        "url": "",
+        "telephone": "+33612345678",
+        "email": "contact@corentin-informatique.fr",
+        "openingHours": [
+            "Mo-Fr 18:00-22:00",
+            "Sa 08:00-18:00"
+        ],
+        "priceRange": "€€",
+        "serviceArea": {
+            "@type": "GeoCircle",
+            "geoMidpoint": {
+                "@type": "GeoCoordinates",
+                "latitude": 49.1039,
+                "longitude": -0.4939
+            },
+            "geoRadius": "20000"
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Services informatiques",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Dépannage informatique",
+                        "description": "Réparation PC/Mac lents, suppression virus, installations"
+                    },
+                    "priceSpecification": {
+                        "@type": "PriceSpecification",
+                        "price": "35",
+                        "priceCurrency": "EUR",
+                        "unitText": "HOUR"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Cours informatique",
+                        "description": "Formation personnalisée, initiation seniors, Python, Linux"
+                    },
+                    "priceSpecification": {
+                        "@type": "PriceSpecification",
+                        "price": "30",
+                        "priceCurrency": "EUR",
+                        "unitText": "HOUR"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Création de sites internet",
+                        "description": "Sites vitrine, e-commerce, WordPress"
+                    },
+                    "priceSpecification": {
+                        "@type": "PriceSpecification",
+                        "minPrice": "300",
+                        "maxPrice": "1200",
+                        "priceCurrency": "EUR"
+                    }
+                }
+            ]
+        },
+        "founder": {
+            "@type": "Person",
+            "name": "Corentin",
+            "jobTitle": "Développeur & SRE",
+            "worksFor": {
+                "@type": "Organization",
+                "name": "Corentin Informatique"
+            }
+        },
+        "areaServed": {
+            "@type": "City",
+            "name": "Évrecy",
+            "containedInPlace": {
+                "@type": "AdministrativeArea",
+                "name": "Calvados"
+            }
+        }
+    }
+    </script>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50" role="banner">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-2">
+                    <i class="fas fa-laptop text-2xl text-blue-600"></i>
+                    <h1 class="text-xl font-bold text-gray-800" id="brand-name">Informatique</h1>
+                </div>
+                <nav class="hidden md:flex items-center space-x-8" role="navigation" aria-label="Navigation principale">
+                    <a href="#services" class="text-gray-600 hover:text-blue-600 transition">Services</a>
+                    <a href="#avantages-fiscaux" class="bg-gradient-to-r from-green-500 to-emerald-500 text-white hover:from-green-600 hover:to-emerald-600 px-3 py-1 rounded-full font-bold shadow-lg transition-all transform hover:scale-105 animate-pulse">-50% Crédit d'impôt</a>
+                    <a href="#qui-suis-je" class="text-gray-600 hover:text-blue-600 transition">Qui suis-je</a>
+                    <a href="#tarifs" class="text-gray-600 hover:text-blue-600 transition">Tarifs</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600 transition">Contact</a>
+                </nav>
+                <a href="https://cal.com/corentin-informatique" target="_blank" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
+                    <i class="fas fa-calendar-check mr-2"></i>Réserver en ligne
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+    <section class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20" role="banner">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-4xl md:text-5xl font-bold mb-6">
+                        <span id="hero-title">🖥️ Dépannage, Cours & Création de Sites Internet</span>
+                    </h2>
+                    <p class="text-xl mb-8 text-blue-100">
+                        7h-20h en semaine, 9h-18h le samedi – particuliers uniquement - <span id="sector-info">secteur : Évrecy et Communauté de communes Vallées de l'Orne & de l'Odon.</span>
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="https://cal.com/corentin-informatique" target="_blank" class="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition text-center">
+                            <i class="fas fa-calendar-check mr-2"></i>Réserver en ligne
+                        </a>
+                        <a href="#services" class="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition text-center">
+                            Voir mes services
+                        </a>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="bg-white/10 p-8 rounded-xl backdrop-blur-sm">
+                        <div class="text-center">
+                            <i class="fas fa-tools text-6xl mb-4 text-blue-200"></i>
+                            <h3 class="text-2xl font-bold mb-4">Expert en Informatique</h3>
+                            <p class="text-blue-100">
+                                Votre informatique simplifiée : dépannage, formation et sites web performants
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16" role="main" aria-labelledby="services-heading">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 id="services-heading" class="text-3xl font-bold text-center text-gray-800 mb-12">✅ Services proposés</h2>
+            
+            <!-- Première ligne : Dépannage et Formation -->
+            <div class="grid md:grid-cols-2 gap-8 mb-8">
+                <!-- Dépannage -->
+                <div class="bg-white rounded-xl shadow-lg p-8">
+                    <div class="flex items-center mb-6">
+                        <div class="bg-red-100 p-3 rounded-full mr-4">
+                            <i class="fas fa-wrench text-2xl text-red-600"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-800">🔧 Dépannage informatique</h3>
+                    </div>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1"></i>
+                            <span>PC/Mac trop lent → optimisation et nettoyage</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1"></i>
+                            <span>Suppression virus et sécurisation</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1"></i>
+                            <span>Réinstallation Windows / logiciels</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1"></i>
+                            <span>Installation internet, Wi-Fi, imprimante</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1"></i>
+                            <span>Sauvegarde et récupération de données</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1"></i>
+                            <span>Remplacement de pièces (disque dur, RAM, écran, etc.)</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Formation -->
+                <div class="bg-white rounded-xl shadow-lg p-8">
+                    <div class="flex items-center mb-6">
+                        <div class="bg-blue-100 p-3 rounded-full mr-4">
+                            <i class="fas fa-graduation-cap text-2xl text-blue-600"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-800">📘 Cours & formation informatique</h3>
+                    </div>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1"></i>
+                            <span>Initiation ordinateur, smartphone, tablette (idéal seniors)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1"></i>
+                            <span>Internet & mails : apprendre à naviguer en toute sécurité</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1"></i>
+                            <span>Bureautique (Word, Excel, PowerPoint)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1"></i>
+                            <span>Réseaux sociaux : Facebook, WhatsApp, etc.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1"></i>
+                            <span>Linux : utilisation, commandes de base, gestion fichiers</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1"></i>
+                            <span>Développement web : HTML, CSS, introduction à WordPress</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1"></i>
+                            <span>Python : bases, scripts simples, automatisation</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1"></i>
+                            <span>Packs personnalisés selon vos besoins</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Deuxième ligne : Sites internet et Optimisation -->
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Sites internet -->
+                <div class="bg-white rounded-xl shadow-lg p-8">
+                    <div class="flex items-center mb-6">
+                        <div class="bg-green-100 p-3 rounded-full mr-4">
+                            <i class="fas fa-globe text-2xl text-green-600"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-800">💻 Création de sites internet</h3>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <div class="flex justify-between items-center">
+                                <span class="font-semibold">Site vitrine simple (1–5 pages)</span>
+                                <span class="text-green-600 font-bold">à partir de 300 €</span>
+                            </div>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <div class="flex justify-between items-center">
+                                <span class="font-semibold">Site vitrine avancé / blog / galerie</span>
+                                <span class="text-green-600 font-bold">à partir de 500 €</span>
+                            </div>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <div class="flex justify-between items-center">
+                                <span class="font-semibold">Boutique en ligne</span>
+                                <span class="text-green-600 font-bold">à partir de 800 €</span>
+                            </div>
+                        </div>
+                        <div class="mt-4 p-3 bg-green-50 border-l-4 border-green-400 rounded">
+                            <p class="text-green-700 text-sm">
+                                <i class="fas fa-graduation-cap mr-2"></i>
+                                <strong>Formation pour gérer le site vous-même → incluse</strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Services web avancés -->
+                <div class="bg-white rounded-xl shadow-lg p-8">
+                    <div class="flex items-center mb-6">
+                        <div class="bg-indigo-100 p-3 rounded-full mr-4">
+                            <i class="fas fa-search text-2xl text-indigo-600"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-800">🚀 Optimisation & Sécurité</h3>
+                    </div>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1"></i>
+                            <span><strong>Référencement SEO</strong> : optimisation pour Google</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1"></i>
+                            <span><strong>Optimisation vitesse</strong> : amélioration temps de chargement</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1"></i>
+                            <span><strong>Sécurisation</strong> : protection contre piratage</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1"></i>
+                            <span><strong>Audit technique</strong> : analyse complète de votre site</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1"></i>
+                            <span><strong>Certificat SSL</strong> : sécurisation des données</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Section Hébergement -->
+            <div class="mt-16">
+                <div class="bg-white rounded-xl shadow-lg p-8">
+                    <div class="flex items-center mb-6">
+                        <div class="bg-yellow-100 p-3 rounded-full mr-4">
+                            <i class="fas fa-server text-2xl text-yellow-600"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-800">⚡ Option Hébergement mensuel</h3>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div class="bg-yellow-50 p-6 rounded-lg border-2 border-yellow-200">
+                            <div class="text-center">
+                                <div class="text-2xl font-bold text-yellow-700 mb-2">20 à 50 €<span class="text-sm text-gray-600">/mois</span></div>
+                                <h4 class="font-semibold mb-4">Hébergement et maintenance technique</h4>
+                            </div>
+                        </div>
+                        <div class="space-y-3">
+                            <div class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-3"></i>
+                                <span>Sauvegarde automatique</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-3"></i>
+                                <span>Mises à jour WordPress/plugins incluses</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-3"></i>
+                                <span>Maintenance technique</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Avantages Fiscaux -->
+    <section id="avantages-fiscaux" class="py-16 bg-gradient-to-r from-green-500 to-emerald-600 text-white relative overflow-hidden">
+        <div class="absolute inset-0 bg-black opacity-10"></div>
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center mb-12">
+                <div class="inline-block bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full mb-4">
+                    <span class="text-lg font-semibold">💰 Avantage fiscal</span>
+                </div>
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">Vos cours et dépannages à moitié prix !</h2>
+                <p class="text-xl text-green-50">Grâce au crédit d'impôt de 50%, récupérez la moitié de vos dépenses</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
+                    <div class="flex items-center mb-6">
+                        <div class="bg-white/20 p-3 rounded-full mr-4">
+                            <i class="fas fa-percentage text-3xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold">50% de crédit d'impôt</h3>
+                            <p class="text-green-100">Sur toutes les prestations éligibles</p>
+                        </div>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-green-300 mr-3"></i>
+                            <span>Professionnel agréé Services à la Personne</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-green-300 mr-3"></i>
+                            <span>Déclaration automatique aux impôts</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-green-300 mr-3"></i>
+                            <span>Attestation fiscale fournie chaque année</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
+                    <h3 class="text-2xl font-bold mb-6">📋 Prestations éligibles</h3>
+                    <div class="space-y-4">
+                        <div class="bg-white/10 p-4 rounded-lg">
+                            <h4 class="font-semibold mb-2">🔧 Assistance informatique à domicile</h4>
+                            <p class="text-green-100 text-sm">Installation, configuration, dépannage, sécurisation de vos appareils (ordinateurs, tablettes, box internet, imprimantes, etc.)</p>
+                        </div>
+                        <div class="bg-white/10 p-4 rounded-lg">
+                            <h4 class="font-semibold mb-2">📚 Cours particuliers à domicile</h4>
+                            <p class="text-green-100 text-sm">Initiation ou perfectionnement à l'informatique, bureautique, internet et usages numériques</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-2xl p-8 text-gray-800">
+                <h3 class="text-2xl font-bold text-center mb-8 text-green-600">💡 Exemples concrets d'économies</h3>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="text-center">
+                        <div class="bg-green-50 rounded-xl p-6">
+                            <p class="text-gray-600 mb-2">Dépannage 2h</p>
+                            <div class="text-3xl font-bold text-gray-800 mb-1">70€</div>
+                            <div class="text-lg text-green-600 font-semibold">= 35€ après crédit</div>
+                            <div class="mt-2 text-sm text-gray-500">Économie : 35€</div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-green-50 rounded-xl p-6 border-2 border-green-400">
+                            <p class="text-gray-600 mb-2">Pack 5h de cours</p>
+                            <div class="text-3xl font-bold text-gray-800 mb-1">120€</div>
+                            <div class="text-lg text-green-600 font-semibold">= 60€ après crédit</div>
+                            <div class="mt-2 text-sm text-gray-500">Économie : 60€</div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-green-50 rounded-xl p-6">
+                            <p class="text-gray-600 mb-2">Formation 10h/an</p>
+                            <div class="text-3xl font-bold text-gray-800 mb-1">300€</div>
+                            <div class="text-lg text-green-600 font-semibold">= 150€ après crédit</div>
+                            <div class="mt-2 text-sm text-gray-500">Économie : 150€</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-8 text-center">
+                    <a href="https://cal.com/corentin-informatique" target="_blank" class="inline-flex items-center bg-gradient-to-r from-green-500 to-emerald-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:from-green-600 hover:to-emerald-700 transition shadow-lg">
+                        <i class="fas fa-calendar-check mr-3"></i>
+                        Réserver mon créneau maintenant
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Qui suis-je Section -->
+    <section id="qui-suis-je" class="py-16 bg-white" role="complementary" aria-labelledby="about-heading">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 id="about-heading" class="text-3xl font-bold text-center text-gray-800 mb-12">👋 Qui suis-je ?</h2>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <div class="bg-gradient-to-br from-blue-50 to-indigo-50 p-8 rounded-2xl">
+                        <div class="text-center">
+                            <!-- Photo de profil -->
+                            <div class="w-48 h-48 rounded-full mx-auto mb-6 overflow-hidden border-4 border-white shadow-xl">
+                                <img src="corentin.jpg" alt="Corentin - Expert informatique" class="w-full h-full object-cover">
+                            </div>
+                            <div class="text-center">
+                                <h3 class="text-2xl font-bold text-gray-800 mb-2" id="profile-name">Corentin</h3>
+                                <p class="text-blue-600 font-semibold text-lg">🎓 Professeur dans l'enseignement supérieur</p>
+                                <p class="text-gray-600 mt-1">Développeur & SRE</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Mon parcours professionnel</h3>
+                        <p class="text-gray-600 leading-relaxed mb-4">
+                            Fort de <strong>plus de 10 ans d'expérience</strong> dans le domaine informatique, 
+                            j'ai eu l'opportunité de travailler pour de grandes entreprises technologiques :
+                        </p>
+                        
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
+                            <div class="bg-blue-50 p-4 rounded-lg text-center">
+                                <div class="font-bold text-blue-700">OVHcloud</div>
+                                <div class="text-sm text-blue-600">Infrastructure</div>
+                            </div>
+                            <div class="bg-green-50 p-4 rounded-lg text-center">
+                                <div class="font-bold text-green-700">PayFit</div>
+                                <div class="text-sm text-green-600">Fintech</div>
+                            </div>
+                            <div class="bg-purple-50 p-4 rounded-lg text-center">
+                                <div class="font-bold text-purple-700">AODocs</div>
+                                <div class="text-sm text-purple-600">GED/Cloud</div>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-4">
+                            <p class="text-gray-700">
+                                <strong class="text-blue-700">🎓 Professeur dans l'enseignement supérieur</strong>, j'enseigne le développement 
+                                et l'administration systèmes. Cette expérience pédagogique me permet de <strong>transmettre mes connaissances 
+                                de manière claire et adaptée</strong> à chaque niveau, du débutant à l'expert.
+                            </p>
+                        </div>
+                        
+                        <p class="text-gray-600 leading-relaxed">
+                            En parallèle de mon activité d'enseignant, je suis <strong>développeur et SRE (Site Reliability Engineer)</strong> 
+                            avec une expertise technique solide acquise dans de grandes entreprises tech. Cette double casquette 
+                            professeur-praticien garantit un accompagnement à la fois pédagogique et techniquement irréprochable.
+                        </p>
+                    </div>
+                    
+                    <div class="bg-gray-50 p-6 rounded-xl">
+                        <h4 class="font-semibold text-gray-800 mb-3">💡 Ma philosophie d'enseignant</h4>
+                        <p class="text-gray-600">
+                            Fort de mon expérience de <strong>professeur</strong>, je crois en une approche <strong>personnalisée et pédagogique</strong>. 
+                            Mon objectif est de vous rendre autonome avec votre matériel informatique, 
+                            en vous expliquant les solutions avec la même clarté et patience que j'apporte à mes étudiants.
+                        </p>
+                    </div>
+                    
+                    <div class="flex flex-wrap gap-3">
+                        <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium border border-purple-300">
+                            <i class="fas fa-chalkboard-teacher mr-1"></i> Professeur Enseignement Supérieur
+                        </span>
+                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
+                            <i class="fas fa-code mr-1"></i> Développement
+                        </span>
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">
+                            <i class="fas fa-server mr-1"></i> Infrastructure
+                        </span>
+                        <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm font-medium">
+                            <i class="fas fa-tools mr-1"></i> Dépannage
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tarifs Section -->
+    <section id="tarifs" class="py-16 bg-gray-100" role="complementary" aria-labelledby="pricing-heading">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 id="pricing-heading" class="text-3xl font-bold text-center text-gray-800 mb-12">💶 Tarifs clairs</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Dépannage ponctuel -->
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+                    <div class="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-tools text-2xl text-red-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Dépannage ponctuel</h3>
+                    <div class="text-3xl font-bold text-red-600 mb-2">35 €<span class="text-sm text-gray-600">/h</span></div>
+                    <p class="text-gray-600">Intervention pour problème spécifique</p>
+                </div>
+
+                <!-- Forfait optimisation -->
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center border-2 border-blue-500">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-tachometer-alt text-2xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Forfait optimisation PC</h3>
+                    <div class="text-3xl font-bold text-blue-600 mb-2">50 €</div>
+                    <p class="text-gray-600">Pour un "ordi qui rame"</p>
+                    <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full mt-2">Populaire</span>
+                </div>
+
+                <!-- Installation box -->
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-wifi text-2xl text-green-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Installation box + Wi-Fi</h3>
+                    <div class="text-3xl font-bold text-green-600 mb-2">40 €</div>
+                    <p class="text-gray-600">Configuration internet complète</p>
+                </div>
+
+                <!-- Cours particuliers -->
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+                    <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-graduation-cap text-2xl text-purple-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Cours particuliers</h3>
+                    <div class="text-3xl font-bold text-purple-600 mb-2">30 €<span class="text-sm text-gray-600">/h</span></div>
+                    <p class="text-gray-600">Formation personnalisée</p>
+                </div>
+
+                <!-- Pack 5h -->
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+                    <div class="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-star text-2xl text-yellow-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Pack 5h de cours</h3>
+                    <div class="text-3xl font-bold text-yellow-600 mb-2">120 €</div>
+                    <p class="text-gray-600">Économisez 30€ avec ce forfait avantageux</p>
+                    <span class="inline-block bg-yellow-100 text-yellow-800 text-xs px-2 py-1 rounded-full mt-2">Meilleur rapport qualité/prix</span>
+                </div>
+
+                <!-- Sites web -->
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+                    <div class="bg-indigo-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-globe text-2xl text-indigo-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Site vitrine simple</h3>
+                    <div class="text-3xl font-bold text-indigo-600 mb-2">300–500 €</div>
+                    <p class="text-gray-600">1-5 pages + formation</p>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+                    <div class="bg-teal-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-desktop text-2xl text-teal-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Site avancé</h3>
+                    <div class="text-3xl font-bold text-teal-600 mb-2">500–800 €</div>
+                    <p class="text-gray-600">Blog, galerie, fonctionnalités</p>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+                    <div class="bg-pink-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-shopping-cart text-2xl text-pink-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Boutique en ligne</h3>
+                    <div class="text-3xl font-bold text-pink-600 mb-2">800–1 200 €</div>
+                    <p class="text-gray-600">E-commerce complet</p>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+                    <div class="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-server text-2xl text-orange-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Hébergement mensuel</h3>
+                    <div class="text-3xl font-bold text-orange-600 mb-2">20–50 €<span class="text-sm text-gray-600">/mois</span></div>
+                    <p class="text-gray-600">Maintenance incluse</p>
+                </div>
+
+                <!-- Services d'optimisation -->
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+                    <div class="bg-cyan-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-search text-2xl text-cyan-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Audit SEO</h3>
+                    <div class="text-3xl font-bold text-cyan-600 mb-2">150 €</div>
+                    <p class="text-gray-600">Analyse + recommandations</p>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+                    <div class="bg-emerald-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-tachometer-alt text-2xl text-emerald-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Optimisation vitesse</h3>
+                    <div class="text-3xl font-bold text-emerald-600 mb-2">200–400 €</div>
+                    <p class="text-gray-600">Performance + Core Web Vitals</p>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+                    <div class="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-shield-alt text-2xl text-red-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Sécurisation</h3>
+                    <div class="text-3xl font-bold text-red-600 mb-2">100–300 €</div>
+                    <p class="text-gray-600">SSL + protection + backup</p>
+                </div>
+            </div>
+
+            <div class="mt-8 bg-amber-50 border-l-4 border-amber-400 p-4 rounded">
+                <div class="flex">
+                    <i class="fas fa-exclamation-triangle text-amber-500 mr-3 mt-1"></i>
+                    <div>
+                        <p class="text-amber-700">
+                            <strong>⚠️ Pièces et matériels éventuels non inclus</strong><br>
+                            (prix coûtant + installation facturée au temps d'intervention)<br>
+                            <strong>🚗 Frais de déplacement non inclus</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16" role="complementary" aria-labelledby="contact-heading">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 id="contact-heading" class="text-3xl font-bold text-center text-gray-800 mb-12">📍 Contact & Disponibilités</h2>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <div class="bg-white rounded-xl shadow-lg p-8">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-6">Mes disponibilités</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-center">
+                                <i class="fas fa-clock text-blue-600 mr-4 text-xl"></i>
+                                <div>
+                                    <h4 class="font-semibold">🕐 Semaine</h4>
+                                    <p class="text-gray-600">7h - 20h du lundi au vendredi</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-calendar text-blue-600 mr-4 text-xl"></i>
+                                <div>
+                                    <h4 class="font-semibold">Samedi</h4>
+                                    <p class="text-gray-600">9h - 18h</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-home text-blue-600 mr-4 text-xl"></i>
+                                <div>
+                                    <h4 class="font-semibold">📍 Intervention à domicile</h4>
+                                    <p class="text-gray-600" id="contact-sector">Secteur Évrecy</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <div class="bg-white rounded-xl shadow-lg p-8">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-6">Me contacter</h3>
+                        <div class="space-y-6">
+                            <a href="https://cal.com/corentin-informatique" target="_blank" class="flex items-center p-4 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-lg hover:from-blue-600 hover:to-blue-700 transition shadow-lg">
+                                <i class="fas fa-calendar-check text-white mr-4 text-2xl"></i>
+                                <div>
+                                    <h4 class="font-bold text-white">Réservation en ligne</h4>
+                                    <p class="text-blue-100">Choisissez votre créneau instantanément</p>
+                                </div>
+                            </a>
+                            <a href="tel:+33612345678" class="flex items-center p-4 bg-green-50 rounded-lg hover:bg-green-100 transition">
+                                <i class="fas fa-phone text-green-600 mr-4 text-xl"></i>
+                                <div>
+                                    <h4 class="font-semibold text-green-800">Téléphone</h4>
+                                    <p class="text-green-600">06 49 85 70 56</p>
+                                </div>
+                            </a>
+                            <a id="email-link" href="#" class="flex items-center p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition">
+                                <i class="fas fa-envelope text-blue-600 mr-4 text-xl"></i>
+                                <div>
+                                    <h4 class="font-semibold text-blue-800">Email</h4>
+                                    <p class="text-blue-600" id="email-address">contact@domaine.fr</p>
+                                </div>
+                            </a>
+                            <div class="flex items-center p-4 bg-gray-50 rounded-lg">
+                                <i class="fas fa-users text-gray-600 mr-4 text-xl"></i>
+                                <div>
+                                    <h4 class="font-semibold text-gray-800">Particuliers uniquement</h4>
+                                    <p class="text-gray-600">Service dédié aux particuliers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#2563EB] text-white py-16 relative overflow-hidden" role="contentinfo" style="background-color: #2563EB;">
+        <div class="absolute inset-0 bg-gradient-to-b from-black/10 to-transparent"></div>
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <!-- Logo et description -->
+                <div class="text-center md:text-left">
+                    <div class="flex items-center justify-center md:justify-start space-x-2 mb-4">
+                        <i class="fas fa-laptop text-3xl text-white"></i>
+                        <h3 class="text-2xl font-bold text-white" id="footer-name">Informatique</h3>
+                    </div>
+                    <p class="text-blue-100 mb-4">
+                        Expert informatique à votre service<br>
+                        🎓 Professeur dans l'enseignement supérieur
+                    </p>
+                    <div class="flex justify-center md:justify-start space-x-4">
+                        <div class="bg-green-400/30 text-white px-3 py-1 rounded-full text-sm font-semibold border border-white/30">
+                            <i class="fas fa-percentage mr-1"></i> -50% crédit d'impôt
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Services rapides -->
+                <div class="text-center">
+                    <h4 class="text-lg font-semibold mb-4 text-white">Services</h4>
+                    <ul class="space-y-2 text-blue-100">
+                        <li><a href="#services" class="hover:text-white transition">🔧 Dépannage informatique</a></li>
+                        <li><a href="#services" class="hover:text-white transition">📚 Cours particuliers</a></li>
+                        <li><a href="#services" class="hover:text-white transition">💻 Création sites web</a></li>
+                        <li><a href="#services" class="hover:text-white transition">🚀 SEO & Optimisation</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact rapide -->
+                <div class="text-center md:text-right">
+                    <h4 class="text-lg font-semibold mb-4 text-white">Contact rapide</h4>
+                    <div class="space-y-3">
+                        <a href="tel:+33612345678" class="inline-flex items-center text-blue-100 hover:text-white transition">
+                            <i class="fas fa-phone mr-2"></i> 06 49 85 70 56
+                        </a><br>
+                        <a href="#" id="footer-email-link" class="inline-flex items-center text-blue-100 hover:text-white transition">
+                            <i class="fas fa-envelope mr-2"></i> <span id="footer-email">contact@domaine.fr</span>
+                        </a><br>
+                        <span class="inline-flex items-center text-blue-100">
+                            <i class="fas fa-clock mr-2"></i> 7h-20h semaine, 9h-18h samedi
+                        </span>
+                    </div>
+                    <div class="mt-4">
+                        <a href="https://cal.com/corentin-informatique" target="_blank" class="inline-block bg-white text-blue-600 hover:bg-blue-50 font-semibold px-6 py-2 rounded-lg transition shadow-lg">
+                            <i class="fas fa-calendar-check mr-2"></i>Réserver en ligne
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-white/20 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-sm text-blue-100 mb-4 md:mb-0">
+                        © 2025 <span id="footer-copyright">Corentin Informatique</span>. Tous droits réservés.
+                    </p>
+                    <div class="flex items-center space-x-4 text-sm text-blue-100">
+                        <span><i class="fas fa-map-marker-alt mr-1"></i> <span id="footer-location">Secteur Évrecy</span></span>
+                        <span><i class="fas fa-shield-alt mr-1"></i> Professionnel agréé</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Configuration pour chaque domaine
+        const domainConfig = {
+            'corentin-informatique.fr': {
+                name: 'Corentin Informatique',
+                businessName: 'Corentin Informatique',
+                title: 'Dépannage, Cours & Création de Sites Internet',
+                heroTitle: '🖥️ Dépannage, Cours & Création de Sites Internet',
+                email: 'contact@corentin-informatique.fr',
+                sector: 'Secteur Évrecy et Communauté de communes Vallées de l'Orne & de l'Odon',
+                description: 'Expert informatique Corentin secteur Évrecy et Communauté de communes Vallées de l\'Orne & de l\'Odon : dépannage PC/Mac, cours pour seniors, création sites web, SEO, optimisation vitesse, sécurisation. Interventions soirées et week-end.',
+                keywords: 'Corentin, dépannage informatique, cours informatique, création site web, Évrecy, Communauté de communes Vallées de l\'Orne et de l\'Odon, PC lent, virus, Wi-Fi, formation senior, Python, Linux, WordPress, SEO, référencement, optimisation vitesse, sécurisation site, audit technique, SSL'
+            },
+            'evrecy-informatique.fr': {
+                name: 'Évrecy Informatique',
+                businessName: 'Évrecy Informatique',
+                title: 'Évrecy Informatique - Dépannage, Cours & Création de Sites Internet',
+                heroTitle: '🖥️ Dépannage, Cours & Création de Sites Internet',
+                email: 'contact@evrecy-informatique.fr',
+                sector: 'Secteur Évrecy et Communauté de communes Vallées de l'Orne & de l'Odon',
+                description: 'Évrecy Informatique : dépannage PC/Mac, cours pour seniors, création sites web, SEO, optimisation vitesse, sécurisation. Interventions soirées et week-end secteur Évrecy.',
+                keywords: 'Évrecy Informatique, dépannage informatique, cours informatique, création site web, Évrecy, PC lent, virus, Wi-Fi, formation senior, Python, Linux, WordPress, SEO, référencement, optimisation vitesse, sécurisation site, audit technique, SSL'
+            }
+        };
+
+        // Mise à jour des meta et données structurées selon le domaine
+        function updateSEOElements(config) {
+            // Meta tags
+            document.getElementById('meta-description').content = config.description;
+            document.getElementById('meta-keywords').content = config.keywords;
+            
+            // Open Graph
+            document.getElementById('og-url').content = window.location.href;
+            document.getElementById('og-title').content = config.title;
+            document.getElementById('og-description').content = config.description;
+            
+            // Twitter
+            document.getElementById('twitter-url').content = window.location.href;
+            document.getElementById('twitter-title').content = config.title;
+            document.getElementById('twitter-description').content = config.description;
+            
+            // Canonical URL
+            document.getElementById('canonical-url').href = window.location.href;
+            
+            // Données structurées JSON-LD
+            const structuredData = document.getElementById('structured-data');
+            const jsonData = JSON.parse(structuredData.textContent);
+            jsonData.name = config.businessName;
+            jsonData.email = config.email;
+            jsonData.url = window.location.href;
+            jsonData.founder.worksFor.name = config.businessName;
+            structuredData.textContent = JSON.stringify(jsonData, null, 2);
+        }
+
+        // Fonction pour adapter le contenu selon le domaine
+        function adaptContentToDomain() {
+            const hostname = window.location.hostname;
+            const config = domainConfig[hostname] || domainConfig['corentin-informatique.fr'];
+
+            // Mise à jour des éléments
+            document.getElementById('page-title').textContent = config.title;
+            document.getElementById('brand-name').textContent = config.name;
+            document.getElementById('hero-title').textContent = config.heroTitle;
+            document.getElementById('profile-name').textContent = config.name.split(' ')[0] || config.name;
+            document.getElementById('footer-name').textContent = config.name;
+            document.getElementById('email-address').textContent = config.email;
+            document.getElementById('email-link').href = `mailto:${config.email}`;
+            document.getElementById('sector-info').textContent = config.sector;
+            document.getElementById('contact-sector').textContent = config.sector.charAt(0).toUpperCase() + config.sector.slice(1);
+        }
+
+        // Exécuter au chargement de la page
+        document.addEventListener('DOMContentLoaded', function() {
+            const hostname = window.location.hostname;
+            const config = domainConfig[hostname] || domainConfig['corentin-informatique.fr'];
+            
+            adaptContentToDomain();
+            updateSEOElements(config);
+            
+            // Mise à jour des éléments du footer
+            document.getElementById('footer-email').textContent = config.email;
+            document.getElementById('footer-email-link').href = `mailto:${config.email}`;
+            document.getElementById('footer-copyright').textContent = config.businessName;
+            document.getElementById('footer-location').textContent = config.sector.charAt(0).toUpperCase() + config.sector.slice(1);
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

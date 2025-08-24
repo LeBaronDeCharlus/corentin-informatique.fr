@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://corentin-informatique.fr/sitemap.xml
+Sitemap: https://evrecy-informatique.fr/sitemap.xml
+
+# Optimisation crawl
+Crawl-delay: 1
+
+# Interdire les fichiers sensibles (si besoin)
+Disallow: /admin/
+Disallow: *.json$
+Disallow: *.xml$
+
+# Permettre les CSS et JS pour le rendu
+Allow: /css/
+Allow: /js/
+Allow: *.css$
+Allow: *.js$
