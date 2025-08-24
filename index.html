@@ -58,7 +58,6 @@
         },
         "url": "",
         "telephone": "+33612345678",
-        "email": "contact@corentin-informatique.fr",
         "openingHours": [
             "Mo-Fr 18:00-22:00",
             "Sa 08:00-18:00"
@@ -767,13 +766,6 @@
                                     <p class="text-green-600">06 49 85 70 56</p>
                                 </div>
                             </a>
-                            <a id="email-link" href="#" class="flex items-center p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition">
-                                <i class="fas fa-envelope text-blue-600 mr-4 text-xl"></i>
-                                <div>
-                                    <h4 class="font-semibold text-blue-800">Email</h4>
-                                    <p class="text-blue-600" id="email-address">contact@domaine.fr</p>
-                                </div>
-                            </a>
                             <div class="flex items-center p-4 bg-gray-50 rounded-lg">
                                 <i class="fas fa-users text-gray-600 mr-4 text-xl"></i>
                                 <div>
@@ -829,9 +821,6 @@
                         <a href="tel:+33612345678" class="inline-flex items-center text-blue-100 hover:text-white transition">
                             <i class="fas fa-phone mr-2"></i> 06 49 85 70 56
                         </a><br>
-                        <a href="#" id="footer-email-link" class="inline-flex items-center text-blue-100 hover:text-white transition">
-                            <i class="fas fa-envelope mr-2"></i> <span id="footer-email">contact@domaine.fr</span>
-                        </a><br>
                         <span class="inline-flex items-center text-blue-100">
                             <i class="fas fa-clock mr-2"></i> 7h-20h semaine, 9h-18h samedi
                         </span>
@@ -866,7 +855,6 @@
                 businessName: 'Corentin Informatique',
                 title: 'Dépannage, Cours & Création de Sites Internet',
                 heroTitle: '🖥️ Dépannage, Cours & Création de Sites Internet',
-                email: 'contact@corentin-informatique.fr',
                 sector: 'Secteur Évrecy et Communauté de communes Vallées de l'Orne & de l'Odon',
                 description: 'Expert informatique Corentin secteur Évrecy et Communauté de communes Vallées de l\'Orne & de l\'Odon : dépannage PC/Mac, cours pour seniors, création sites web, SEO, optimisation vitesse, sécurisation. Interventions soirées et week-end.',
                 keywords: 'Corentin, dépannage informatique, cours informatique, création site web, Évrecy, Communauté de communes Vallées de l\'Orne et de l\'Odon, PC lent, virus, Wi-Fi, formation senior, Python, Linux, WordPress, SEO, référencement, optimisation vitesse, sécurisation site, audit technique, SSL'
@@ -876,7 +864,6 @@
                 businessName: 'Évrecy Informatique',
                 title: 'Évrecy Informatique - Dépannage, Cours & Création de Sites Internet',
                 heroTitle: '🖥️ Dépannage, Cours & Création de Sites Internet',
-                email: 'contact@evrecy-informatique.fr',
                 sector: 'Secteur Évrecy et Communauté de communes Vallées de l'Orne & de l'Odon',
                 description: 'Évrecy Informatique : dépannage PC/Mac, cours pour seniors, création sites web, SEO, optimisation vitesse, sécurisation. Interventions soirées et week-end secteur Évrecy.',
                 keywords: 'Évrecy Informatique, dépannage informatique, cours informatique, création site web, Évrecy, PC lent, virus, Wi-Fi, formation senior, Python, Linux, WordPress, SEO, référencement, optimisation vitesse, sécurisation site, audit technique, SSL'
@@ -906,7 +893,6 @@
             const structuredData = document.getElementById('structured-data');
             const jsonData = JSON.parse(structuredData.textContent);
             jsonData.name = config.businessName;
-            jsonData.email = config.email;
             jsonData.url = window.location.href;
             jsonData.founder.worksFor.name = config.businessName;
             structuredData.textContent = JSON.stringify(jsonData, null, 2);
@@ -923,8 +909,6 @@
             document.getElementById('hero-title').textContent = config.heroTitle;
             document.getElementById('profile-name').textContent = config.name.split(' ')[0] || config.name;
             document.getElementById('footer-name').textContent = config.name;
-            document.getElementById('email-address').textContent = config.email;
-            document.getElementById('email-link').href = `mailto:${config.email}`;
             document.getElementById('sector-info').textContent = config.sector;
             document.getElementById('contact-sector').textContent = config.sector.charAt(0).toUpperCase() + config.sector.slice(1);
         }
@@ -937,9 +921,6 @@
             adaptContentToDomain();
             updateSEOElements(config);
             
-            // Mise à jour des éléments du footer
-            document.getElementById('footer-email').textContent = config.email;
-            document.getElementById('footer-email-link').href = `mailto:${config.email}`;
             document.getElementById('footer-copyright').textContent = config.businessName;
             document.getElementById('footer-location').textContent = config.sector.charAt(0).toUpperCase() + config.sector.slice(1);
         });
